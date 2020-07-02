@@ -105,7 +105,7 @@ Graph_nodes = {
     'B': [('C', 1),('G', 9)],
     'C': None,
     'E': [('D', 6)],
-    'D': [('G', 1)],
+    'D': [('cairo', 1)],
     
 }
-aStarAlgo('A', 'G')
+aStarAlgo('A', 'cairo')
